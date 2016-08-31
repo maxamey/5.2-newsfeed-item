@@ -1,3 +1,158 @@
 /*
   Main Stylesheet
 */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(233, 235, 238);
+  background-size: cover;
+  text-align: center;
+}
+
+.feedWrapper {
+  display: inline-block;
+  font-family: Helvetica, sans-serif;
+  margin-top: 30px;
+  width: 502px;
+}
+
+.itemWrapper {
+  border: 2px solid rgb(223, 224, 228);
+  border-radius: 3px;
+  text-align: left;
+}
+
+.articleWrapper {
+  background-color: rgb(255, 255, 255);
+  font-weight: lighter;
+  line-height: 1.34;
+  padding: 12px 12px 0px 12px;
+  width: 100%;
+}
+
+.article__heading--authorProfileImageLink {
+  text-decoration: none;
+}
+
+.article__heading--authorProfileImage {
+  border: 1px solid rgb(230, 230, 230);
+  height: 40px;
+  width: 40px;
+}
+
+.article__heading--textContainer {
+  display: inline-block;
+  margin-left: 8px;
+  vertical-align: top;
+  width: 424px;
+}
+
+.article__heading--authorProfileNameLink {
+  text-decoration: none;
+}
+
+.article__heading--authorProfileName {
+  color: rgb(54, 88, 153);
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.article__timestamp {
+  color: rgb(151, 154, 162);
+  font-size: 12px;
+}
+
+.article__content {
+  font-size: 14px;
+  font-weight: lighter;
+  margin: 8px 0px;
+}
+
+.article__preview--link {
+
+}
+.article__preview--image {
+  border: 1px solid rgb(230, 230, 230);
+  height: auto;
+  width: 474px;
+}
+
+.article__footer {
+  border-top: 1px solid rgb(225, 226, 227);
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 12px;
+  letter-spacing: -0.24px;
+  padding-bottom: 4px;
+}
+
+.article__footer--likeButton {
+  color: rgb(127, 127, 127);
+  margin: 0px 20px 0px 8px;
+}
+
+.article__footer--likeButton:hover {
+  cursor: pointer;
+}
+
+.article__footer--commentButton {
+  color: rgb(127, 127, 127);
+}
+
+.article__footer--commentButton:hover {
+  cursor: pointer;
+}
+
+.commentsWrapper {
+  background-color: rgb(246, 247, 249);
+  border-top: 1px solid rgb(225, 227, 227);
+  color: rgb(26, 33, 41);
+  font-size: 12px;
+  font-weight: lighter;
+  letter-spacing: -0.24px;
+  line-height: 16px;
+}
+
+.commentWrapper {
+  margin: 0px 12px;
+  padding: 8px 0px 4px 0px;
+}
+
+.commenter__profileImage {
+  height: 32px;
+  width: 32px;
+}
+
+.comment__contentAndFooter {
+  display: inline-block;
+  padding: 0px 12px;
+  vertical-align: top;
+  width: 420px;
+}
+.commentContentBlock {
+
+}
+
+.comment__content {
+}
+
+.commenter__profileName {
+  font-weight: bolder;
+  margin-right: 4px;
+}
+
+.comment__footer {
+  padding-top: 2px;
+}
+
+.comment__footer--likeCounter {
+  color: rgb(54, 88, 153);
+  margin: 0px 10px 0px 15px;
+}
+
+.comment__footer--timestamp {
+  color: rgb(151, 154, 162);
+}
